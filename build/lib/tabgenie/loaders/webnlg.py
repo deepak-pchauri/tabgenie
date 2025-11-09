@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from tabgenie.structs.data import Cell, Table, HFTabularDataset
-from tabgenie.utils.text import normalize
+from ..structs.data import Cell, Table, HFTabularDataset
+from ..utils.text import normalize
 
 import logging
 

@@ -7,7 +7,7 @@
 
 
 def load_dataset(dataset_name, splits=None):
-    from tabgenie.loaders import DATASET_CLASSES
+    from .loaders import DATASET_CLASSES
 
     try:
         dataset = DATASET_CLASSES[dataset_name]()

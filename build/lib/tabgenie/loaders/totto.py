@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from tabgenie.structs.data import Cell, Table, HFTabularDataset
+from ..structs.data import Cell, Table, HFTabularDataset
 
 
 class ToTTo(HFTabularDataset):
